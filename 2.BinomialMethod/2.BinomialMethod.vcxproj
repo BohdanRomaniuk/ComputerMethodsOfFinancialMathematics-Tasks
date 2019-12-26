@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E1B0B2ED-5380-4C4C-BA96-2D7C38D6DB31}</ProjectGuid>
-    <RootNamespace>My1PDE</RootNamespace>
+    <ProjectGuid>{7EE91474-77EF-4A85-A25D-B1EB1622BC01}</ProjectGuid>
+    <RootNamespace>My2BinomialMethod</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,10 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PDE.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="normdist.h" />
+    <ClCompile Include="BinomialMethod.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

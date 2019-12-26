@@ -117,6 +117,9 @@
   <ItemGroup>
     <ClCompile Include="MonteCarlo.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="normdist.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
